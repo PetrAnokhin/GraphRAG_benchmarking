@@ -30,21 +30,15 @@ Test approaches that can map and analyze contextual relationships between entiti
 | F1              | 0.675  | 0.5    | 0.3    | 0.3    |
 *Exact Match = true answer is a subset of generated answer*
 
-### Benchmarking results Llama-3-70B vs GPT-4o-mini с Microsoft GraphRAG
+### Benchmarking results Microsoft GraphRAG Llama-3-70B vs GPT-4o-mini vs AriGraph 
 | Model         | HotpotQA |       | MuSiQue |       | BABILong 0k |       | BABILong 4k, 8k, 16k, 32k |       |
 |---------------|----------|-------|--------------|-------|---------|-------|---------------------------|-------|
 |               | EM       | F1    | EM           | F1    | EM      | F1    | EM                        | F1    |
 | Local         | 18.0     | 33.7  | 8.7          | 2.1   | 69.2    | 67.2  | 0                         | 0     |
 | Global        | 4.0      | 5.1   | 3.2          | 1.7   | 61.5    | 33.2  | 0                         | 0     |
 | GPT-4o-mini   | 58.7     | 63.3  | 40.0         | 53.5  | -       | -     | -                         | -     |
+| Arigraph      | 43.0     | 51.8  | 27.0         | 36.7  | 61.5    | 67.2  | 0.3                       | 0.3   |
 
-### Benchmarking Llama-3-70B with Microsoft GraphRAG vs AriGraph
-| Model    | HotpotQA |       | MuSiQue |       | BABILong 0k |       | BABILong 4k, 8k, 16k, 32k |       |
-|----------|----------|-------|-------------|-------|---------|-------|---------------------------|-------|
-|          | EM       | F1    | EM          | F1    | EM      | F1    | EM                        | F1    |
-| Local    | 18.0     | 33.7  | 8.7         | 2.1   | 69.2    | 67.2  | 0                         | 0     |
-| Global   | 4.0      | 5.1   | 3.2         | 1.7   | 61.5    | 33.2  | 0                         | 0     |
-| Arigraph | 43.0     | 51.8  | 27.0        | 36.7  | 61.5    | 67.2  | 0.3                       | 0.3   |
 
 ### Full Online version of the report
 
