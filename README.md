@@ -31,7 +31,7 @@ Test approaches that can map and analyze contextual relationships between entiti
 *Exact Match = true answer is a subset of generated answer*
 
 ### Benchmarking results Llama-3-70B vs GPT-4o-mini с Microsoft GraphRAG
-| Model         | HotpotQA |       | BABILong 0k |       | MuSiQue |       | BABILong 4k, 8k, 16k, 32k |       |
+| Model         | HotpotQA |       | MuSiQue |       | BABILong 0k |       | BABILong 4k, 8k, 16k, 32k |       |
 |---------------|----------|-------|--------------|-------|---------|-------|---------------------------|-------|
 |               | EM       | F1    | EM           | F1    | EM      | F1    | EM                        | F1    |
 | Local         | 18.0     | 33.7  | 8.7          | 2.1   | 69.2    | 67.2  | 0                         | 0     |
@@ -39,7 +39,7 @@ Test approaches that can map and analyze contextual relationships between entiti
 | GPT-4o-mini   | 58.7     | 63.3  | 40.0         | 53.5  | -       | -     | -                         | -     |
 
 ### Benchmarking Llama-3-70B with Microsoft GraphRAG vs AriGraph
-| Model    | HotpotQA |       | BABILong 0k |       | MuSiQue |       | BABILong 4k, 8k, 16k, 32k |       |
+| Model    | HotpotQA |       | MuSiQue |       | BABILong 0k |       | BABILong 4k, 8k, 16k, 32k |       |
 |----------|----------|-------|-------------|-------|---------|-------|---------------------------|-------|
 |          | EM       | F1    | EM          | F1    | EM      | F1    | EM                        | F1    |
 | Local    | 18.0     | 33.7  | 8.7         | 2.1   | 69.2    | 67.2  | 0                         | 0     |
